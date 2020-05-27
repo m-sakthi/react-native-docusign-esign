@@ -11,12 +11,14 @@ Pod::Spec.new do |s|
   s.version          = spec['version']
   s.summary          = spec['description']
   s.requires_arc = true
-  s.authors      = {
-                   }
+  s.authors      = spec['author']
   s.license      = spec['license']
   s.homepage     = spec['homepage']
   s.platform     = :ios, "7.0"
-  s.source       = { spec['repository']['type'].to_sym => spec['repository']['url'].sub(/^[a-z]+\+/, '') }
+  s.source       = {
+    spec['repository']['type'].to_sym => spec['repository']['url'].sub(/^[a-z]+\+/, '')
+    tag: "v#{spec.version}"
+  }
   s.source_files = [ "ios/*.h", "ios/*.m"]
   s.dependency 'DocuSign.Esign'
 end

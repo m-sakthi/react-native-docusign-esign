@@ -3,17 +3,16 @@
 
 ## Getting started
 
-`$ npm install react-native-docusign-esign --save`
+`npm install react-native-docusign-esign --save`
 
 ### Installation 
 
-`$ react-native link react-native-docusign-esign`
+`react-native link react-native-docusign-esign`
 
 
 #### iOS 
 
-`$ cd ios`
-`$ pod init`
+`cd ios`
 
 Open up your Podfile and remove the second "tvOS" target, and add the following line a few rows from the top: 
 
@@ -21,7 +20,7 @@ Open up your Podfile and remove the second "tvOS" target, and add the following 
 
 then run:
 
-`$ pod install`
+`pod install`
 
 and open your new "*.xcworkspace" file in XCode 
 
