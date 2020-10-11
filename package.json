@@ -1,7 +1,9 @@
 {
   "name": "react-native-docusign-esign",
   "version": "1.0.4",
-  "description": "",
+  "description": "docusign react native",
+  "author": "Ali Raza Anjum <arazaanjum@gmail.com>",
+  "homepage": "https://github.com/ARazaAnjum/react-native-docusign-esign",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
